@@ -13,7 +13,7 @@ fn find_basement(input: String) -> usize {
     for c in input.char_indices() {
         current_level = parse_char(current_level, c.1);
         if current_level < 0 {
-            return c.0;
+            return c.0 + 1;
         };
     }
 
