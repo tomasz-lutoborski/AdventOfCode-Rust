@@ -1,0 +1,13 @@
+[package]
+name = "aoc_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "aoc_rust"
+path = "src/main.rs"
+
+[lib]
+path = "src/lib.rs"
