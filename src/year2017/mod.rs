@@ -1,8 +1,5 @@
-use std::fs::read_to_string;
-
-pub mod day1;
-
-pub fn solve() {
-    let content = read_to_string("inputs/Year2017/Day1.txt").unwrap();
-    println!("{}", content);
-}
+// pub mod day1;
+// pub mod day2;
+// pub mod day3;
+// pub mod day4;
+pub mod day5;

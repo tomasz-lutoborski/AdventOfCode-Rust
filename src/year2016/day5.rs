@@ -43,12 +43,15 @@ fn decode_clever_password(prefix: &str) -> String {
                             .is_none()
                         {
                             password[digit as usize] = hash_string.clone().chars().nth(6);
+                            elems += 1;
                         }
                     }
                     _ => (),
                 }
             }
         }
+
+        n += 1;
     }
 
     password.into_iter().map(|c| c.unwrap()).collect()
