@@ -1,4 +1,4 @@
-use aoc_rust::year2017;
+use aoc_rust::year2018;
 fn main() {
-    year2017::day5::solve();
+    year2018::day4::solve();
 }
